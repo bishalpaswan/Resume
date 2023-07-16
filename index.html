@@ -3,48 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Resume</title>
+  <title>John Doe - Web Developer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
     <nav>
       <ul>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
+  
   <main>
+    <section id="home">
+      <h1>John Doe</h1>
+      <p>Web Developer</p>
+      <a href="#portfolio" class="cta-button">View Portfolio</a>
+    </section>
+    
     <section id="about">
       <h2>About Me</h2>
-      <p>Your introduction and a brief summary of your professional background.</p>
+      <p>
+        Hi, I'm John Doe, a passionate web developer with several years of experience 
+        in building responsive and user-friendly websites.
+      </p>
     </section>
     
-    <section id="experience">
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <h3>Job Title</h3>
-          <p>Company Name</p>
-          <p>Duration</p>
-          <p>Job Description</p>
-        </li>
-        <!-- Add more experience items as needed -->
-      </ul>
-    </section>
-    
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <!-- Add more skills as needed -->
-      </ul>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <!-- Add portfolio items here -->
     </section>
     
     <section id="contact">
@@ -63,6 +54,9 @@
       </form>
     </section>
   </main>
-  <script src="script.js"></script>
+  
+  <footer>
+    <p>&copy; 2023 John Doe. All rights reserved.</p>
+  </footer>
 </body>
 </html>
